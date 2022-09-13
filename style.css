@@ -1,46 +1,34 @@
-body { 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+.container{
+    width: 80%;
+    background-color: white;
+    margin-left: 10%;
 }
-.conteiner {
-    width: 70%;
-    background-color: yellow;
-    margin-left: 15%;
 
-
-} 
-.header { 
-    color: gray;
-}
-.mainav {
-    background-color: yellow;
-    color: black;
-
-}
-.content { 
-    color: gray;
-
-}
-.mainleft { color: gray;
-    
-}
-.footer {
-color: gray;
-}
-.mainav li {
-    display: inline;
-    background-size: 50%;
-    padding: 0px 10px;
-}
-.referencia {
+.logo{
+    width: 60%;
     float: left;
+    background-color: gray;
     color: yellow;
-    background-size: 70%;
-    padding: 0px 8px;
-}
-.mainav li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    font-size: 35px;
-    color: black;
+    font-size: 12.5px;
 }
 
+.nav{
+    width: 40%;
+    float: right;
+    background-color: yellow;
+}
+
+.nav li{
+    display: inline;
+    padding: 5%;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant
+}
