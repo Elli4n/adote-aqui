@@ -1,6 +1,10 @@
+body {
+    background: url(/imgs/canil-filhotes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .container{
     width: 80%;
-    background-color: white;
     margin-left: 10%;
 }
 
@@ -31,4 +35,18 @@
     color: gray;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content {
+    text-align: center;
+    padding: 6%;
+}
+.content p {
+    text-align: justify;
+}
+
+.footer {
+     clear: both;
+    background-color: yellow;
+    color: black;
+    text-align: center;
 }
