@@ -39,6 +39,8 @@ body {
 .content {
     text-align: center;
     padding: 6%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .content p {
     text-align: justify;
@@ -48,5 +50,10 @@ body {
      clear: both;
     background-color: yellow;
     color: black;
-    text-align: center;
+    text-decoration: none;
+}
+.footer li {
+    display: inline;
+    text-decoration: none;
+    padding: 0px 5% ;
 }
